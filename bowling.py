@@ -28,10 +28,6 @@ def score(game):
             frame += 1
     return bowling_score
 
-#renamed result to bowling_score
-#fixed boolean requirements
-
-
 def get_value(char):
     char_list = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
     char_sign_list = ['X', 'x', '/']
@@ -43,5 +39,3 @@ def get_value(char):
         return 0
     else:
         raise ValueError()
-
-#ordered get_value into lists
